@@ -119,9 +119,6 @@ $ unzip HS-SOD.zip
 
 ![fig:QoMEX2018_poster](https://github.com/gistairc/HS-SOD/blob/master/images/poster-QoMEX2018.png "poster") 
 
-## Acknowledgement
-This dataset and source code are based on results obtained from a project commissioned by the New Energy and Industrial Technology Development Organization (NEDO).
-
 ## Citations
 
 ```BibTeX
