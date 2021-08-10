@@ -61,6 +61,48 @@ class Network(nn.Module):
 ```
 Done! The network now has Butterfly layers.
 
+## <div align="center">Run Experiment Examples</div>
+
+To run experiments from Section 5.2 - Encoder-Decoder Butterfly network (example):
+
+```bash
+python Encoder-Decoder\ Butterfly\ Network.py --lr 0.001 --epochs 2000 --batch-size 64 --dataset 'MNIST'
+```
+
+To run experiments from Section 5.3 - Two Phase Learning (example):
+
+```bash
+python Two-phase\ learning.py --epochs 5000 --dataset 'MNIST' --batch-size 128 --lr 0.001
+```
+
+To run experiments from Section 5.1 - Replacing Dense Linear Layers (example):
+
+```bash
+#python Replacing\ Dense.py --lr 0.001 --epochs 200 --butterfly True --model "ResNet18" --dataset "CIFAR10"
+```
+
+To run experiments from Section 6 - Sketching for Low-Rank Matrix Decomposition (example):
+
+```bash
+!python Sketching\ for\ Low-Rank\ Matrix\ Decomposition.py --experiment 1 --premute "False" --m 20 --k 10 --dataset 'CIFAR10' --epochs 250
+```
+
+Experiment ID details:
+
+Experiment 1: Sparse trained
+
+Experiment 2: Butterfly trained
+
+Experiment 3: Average loss on 100 random sparse and 100 random dense
+
+Experiment 4: Average random sparse and random dense on different combinations
+
+Experiment 5: Random sparse on different combinations
+
+Experiment 5: Random Butterfly on different combinations
+
+
+
 ## Citations
 
 ```BibTeX
